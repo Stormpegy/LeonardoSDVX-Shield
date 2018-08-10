@@ -66,10 +66,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Leonardo SDVX Shield"
+Date "2018-08-10"
+Rev "1"
+Comp "https://github.com/Stormpegy"
 Comment1 ""
 Comment2 ""
 Comment3 ""

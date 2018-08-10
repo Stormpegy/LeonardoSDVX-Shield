@@ -202,33 +202,33 @@ Text Label 2000 4600 1    60   ~ 0
 E2D+
 Text Label 2100 4600 1    60   ~ 0
 E2D-
-Text Label 2600 3800 1    60   ~ 0
-B1
-Text Label 3050 4600 1    60   ~ 0
-B2
-Text Label 3150 4600 1    60   ~ 0
-B2LED
 Text Label 2700 3800 1    60   ~ 0
+B1
+Text Label 3150 4600 1    60   ~ 0
+B2
+Text Label 3050 4600 1    60   ~ 0
+B2LED
+Text Label 2600 3800 1    60   ~ 0
 B1LED
-Text Label 3650 3800 1    60   ~ 0
-B3
 Text Label 3750 3800 1    60   ~ 0
+B3
+Text Label 3650 3800 1    60   ~ 0
 B3LED
-Text Label 4100 4600 1    60   ~ 0
-B4
 Text Label 4200 4600 1    60   ~ 0
+B4
+Text Label 4100 4600 1    60   ~ 0
 B4LED
-Text Label 4700 3800 1    60   ~ 0
-B5
 Text Label 4800 3800 1    60   ~ 0
+B5
+Text Label 4700 3800 1    60   ~ 0
 B5LED
-Text Label 5150 4600 1    60   ~ 0
-B6
 Text Label 5250 4600 1    60   ~ 0
+B6
+Text Label 5150 4600 1    60   ~ 0
 B6LED
-Text Label 5750 3800 1    60   ~ 0
-B7
 Text Label 5850 3800 1    60   ~ 0
+B7
+Text Label 5750 3800 1    60   ~ 0
 B7LED
 Text Label 9700 1400 0    60   ~ 0
 E2D+

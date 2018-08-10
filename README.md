@@ -51,6 +51,8 @@ Encoders | DATA 1 | DATA 2 |
 ## Ordering
 These can be ordered very cheaply through a PCB manufacturer such as JLCPCB, they cost $2USD for 5-10qty and shipping is around $5USD to Malaysia and $6USD to Australia.
 
+Simply download LeonardoSDVX-Shield-Gerber.zip and upload it to your preferred PCB manufacturer, I use JLCPCB though there are plenty out there.
+
 I highly recommend leaving the settings on JLCPCB as default unless you know what you're doing.
 
 Layers - 2
@@ -77,6 +79,8 @@ Different design - 1
 - [x] Add imgs to readme.md (this doc)
 
 - [ ] Add more info on the code change / LED pinout change
+
+- [ ] Possibly modify the shield footprint to remove the white outline? unsure how that will go with manufacturing
 
 ## Contact and Modifications
 Created by https://github.com/Stormpegy
