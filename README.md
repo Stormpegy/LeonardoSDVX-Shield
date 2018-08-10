@@ -5,6 +5,7 @@ Open source IO shield for homebuilt SDVX / K-Shoot Mania style controllers
 
 Uses the kicad libraries by sparkfun 
 https://github.com/sparkfun/SparkFun-KiCad-Libraries
+
 Uses arduino-kicad-library by Alarm-Siren
 https://github.com/Alarm-Siren/arduino-kicad-library
 
@@ -12,8 +13,9 @@ Originally built to use the cons&stuff leovxhq code but pinout has been modified
 
 Cons & stuff SDVX repo
 [Cons&Stuff](https://consandstuff.github.io/rhythmcons/sound-voltex/sdvx-normal/)
+
 Original code can be found here
-[Cons & Stuff leovx Code](ttps://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
+[Cons & Stuff leovx Code](https://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
 
 LED Pinout changes between original leovx/leovxhq and what is required for this board
 
