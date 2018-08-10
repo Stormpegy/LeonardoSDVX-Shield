@@ -44,9 +44,9 @@ Encoders | DATA 1 | DATA 2 |
 
 ## Images
 
-Img front
+![Img Front](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-1.png)
 
-Img back
+![Img Back](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-2.png)
 
 ## Ordering
 These can be ordered very cheaply through a PCB manufacturer such as JLCPCB, they cost $2USD for 5-10qty and shipping is around $5USD to Malaysia and $6USD to Australia.
@@ -55,7 +55,7 @@ I highly recommend leaving the settings on JLCPCB as default unless you know wha
 
 Layers - 2
 
-Dimensions - don't change, it automatically enters these
+Dimensions - 53 x 69 mm, don't change, it automatically enters these
 
 PCB thickness - 1.6mm
 
@@ -74,7 +74,7 @@ Different design - 1
 ## To do list
 - [ ] Make parts list
 
-- [ ] Add imgs to readme.md (this doc)
+- [x] Add imgs to readme.md (this doc)
 
 - [ ] Add more info on the code change / LED pinout change
 
