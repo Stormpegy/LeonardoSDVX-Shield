@@ -3,7 +3,7 @@
   (general
     (links 40)
     (no_connects 0)
-    (area 146.736999 49.200999 215.467001 102.691001)
+    (area 144.631999 47.285 215.667001 103.066)
     (thickness 1.6)
     (drawings 27)
     (tracks 115)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -65,7 +65,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFF7FF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory ../gerber/))
   )
 
   (net 0 "")
@@ -857,9 +857,9 @@
   (segment (start 194.056 75.692) (end 194.056 54.053314) (width 0.25) (layer F.Cu) (net 19))
   (segment (start 194.056 54.053314) (end 195.072 53.037314) (width 0.25) (layer F.Cu) (net 19))
   (segment (start 195.072 53.037314) (end 195.072 51.816) (width 0.25) (layer F.Cu) (net 19))
-  (segment (start 206.28864 85.36178) (end 206.28864 85.694949) (width 0.25) (layer F.Cu) (net 20))
-  (segment (start 206.28864 85.694949) (end 208.788 88.194309) (width 0.25) (layer F.Cu) (net 20))
-  (segment (start 208.788 88.194309) (end 208.788 97.330686) (width 0.25) (layer F.Cu) (net 20))
+  (segment (start 206.28864 85.36178) (end 206.28864 85.38464) (width 0.25) (layer F.Cu) (net 20))
+  (segment (start 206.28864 85.38464) (end 208.788 87.884) (width 0.25) (layer F.Cu) (net 20))
+  (segment (start 208.788 87.884) (end 208.788 97.330686) (width 0.25) (layer F.Cu) (net 20))
   (segment (start 208.788 97.330686) (end 210.312 98.854686) (width 0.25) (layer F.Cu) (net 20))
   (segment (start 210.312 98.854686) (end 210.312 100.076) (width 0.25) (layer F.Cu) (net 20))
   (segment (start 157.48 67.31) (end 161.29 71.12) (width 0.25) (layer B.Cu) (net 21))

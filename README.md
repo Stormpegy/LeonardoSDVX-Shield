@@ -15,8 +15,10 @@ Original code can be found here
 [Cons & Stuff leovx Code](ttps://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
 
 LED Pinout changes between original leovx/leovxhq and what is required for this board
+
 Original
 `uint8_t ledPins[] = {6,7,8,9,10,11,12};`
+
 New
 `uint8_t ledPins[] = {12,11,10,9,8,7,6};`
 
@@ -55,6 +57,11 @@ Copper weight - 1oz
 Gold fingers - No
 Panel - No
 Different design - 1
+
+## To do list
+[ ] Make parts list
+[ ] Add imgs to readme.md (this doc)
+[ ] Add more info on the code change / LED pinout change
 
 ## Contact and Modifications
 Created by https://github.com/Stormpegy
