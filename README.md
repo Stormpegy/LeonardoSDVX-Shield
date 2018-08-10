@@ -11,13 +11,13 @@ https://github.com/Alarm-Siren/arduino-kicad-library
 
 Originally built to use the cons&stuff leovxhq code but pinout has been modified to make some of the routing neater.
 
-Cons & stuff SDVX repo
+Cons & stuff SDVX guide
 [Cons&Stuff](https://consandstuff.github.io/rhythmcons/sound-voltex/sdvx-normal/)
 
 Original code can be found here
 [Cons & Stuff leovx Code](https://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
 
-LED Pinout changes between original leovx/leovxhq and what is required for this board
+LED Pinout code changes between original leovx/leovxhq and what is required for this board
 
 Original
 `uint8_t ledPins[] = {6,7,8,9,10,11,12};`
@@ -48,6 +48,19 @@ Encoders | DATA 1 | DATA 2 |
 
 ![Img Back](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-2.png)
 
+## Parts and construction
+
+x32 header pins, standard 2.54mm spacing (Optional +2 if you wish to put headers on the system pins)
+
+Very cheap, Can be found for as cheap as $1USD for 10pcs 40pin online.
+
+x9 JST-XH 4 Pin style straight THT connectors (Ensure you get straight through hole, you will likely struggle if you get right angle or smd)
+
+These XH connectors can be found as sets with cables as well, It's recommend to get 25-30cm wires if you get a set.
+JST brand is not important, Just ensure they are XH style spacing (2.5mm/2.54mm)
+
+Crimps, Buttons, Leonardo and all the other parts to build a controller are also required but this just covers the parts for this shield, reference the cons&stuff for a great guide on making your own controller.
+
 ## Ordering
 These can be ordered very cheaply through a PCB manufacturer such as JLCPCB, they cost $2USD for 5-10qty and shipping is around $5USD to Malaysia and $6USD to Australia.
 
@@ -74,7 +87,7 @@ Panel - No
 Different design - 1
 
 ## To do list
-- [ ] Make parts list
+- [x] Make parts list
 
 - [x] Add imgs to readme.md (this doc)
 
