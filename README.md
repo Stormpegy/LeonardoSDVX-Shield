@@ -11,19 +11,22 @@ https://github.com/Alarm-Siren/arduino-kicad-library
 
 Originally built to use the cons&stuff leovxhq code but pinout has been modified to make some of the routing neater.
 
-Cons & stuff SDVX guide
+Cons&Stuff SDVX guide
 [Cons&Stuff](https://consandstuff.github.io/rhythmcons/sound-voltex/sdvx-normal/)
 
 Original code can be found here
 [Cons & Stuff leovx Code](https://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
 
 LED Pinout code changes between original leovx/leovxhq and what is required for this board
+To update this code look for line 18 on leovx or line 27 on leovxhq and replace with the new example
 
 Original
 `uint8_t ledPins[] = {6,7,8,9,10,11,12};`
 
 New
 `uint8_t ledPins[] = {12,11,10,9,8,7,6};`
+
+I won't tell you how to open and flash this code, just download the arduino IDE and google the rest, It's not too complicated, ask on discord if you need a hand.
 
 ## Pinout
 
@@ -54,9 +57,9 @@ x32 header pins, standard 2.54mm spacing (Optional +2 if you wish to put headers
 
 Very cheap, Can be found for as cheap as $1USD for 10pcs 40pin online.
 
-x9 JST-XH 4 Pin style straight THT connectors (Ensure you get straight through hole, you will likely struggle if you get right angle or smd)
+x9 JST-XH 4 Pin style straight THT connectors (Ensure you get straight through hole, you will ~~likely~~ definitely struggle if you get right angle or smd)
 
-These XH connectors can be found as sets with cables as well, It's recommend to get 25-30cm wires if you get a set.
+These XH connectors can be found as sets with cables as well, It's recommend to get 25-35cm wires if you get a set.
 JST brand is not important, Just ensure they are XH style spacing (2.5mm/2.54mm)
 
 Crimps, Buttons, Leonardo and all the other parts to build a controller are also required but this just covers the parts for this shield, reference the cons&stuff for a great guide on making your own controller.
@@ -91,7 +94,7 @@ Different design - 1
 
 - [x] Add imgs to readme.md (this doc)
 
-- [ ] Add more info on the code change / LED pinout change
+- [x] Add more info on the code change / LED pinout change
 
 - [ ] Possibly modify the shield footprint to remove the white outline? unsure how that will go with manufacturing
 
