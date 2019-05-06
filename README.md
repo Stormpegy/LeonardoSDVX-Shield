@@ -28,6 +28,15 @@ New
 
 I won't tell you how to open and flash this code, just download the arduino IDE and google the rest, It's not too complicated, ask on discord if you need a hand.
 
+## Changelog
+REV 2 released
+
+- Replaced JST-XH connector footprints with generic 2.54mm header footprints, original footprints were well out of spec and didn't fit 2.54mm headers/plugs; thank you SirusDoma (C&S discord) for bringing this to my attention.
+
+- System pin rotated to have GND on the same side as all other connections (I have also forgotten why the system pin exists but I'm leaving it there /shrug)
+
+- Removed white border on leonardo shield footprint, library updated and included
+
 ## Pinout
 
 |Button	| Pin # | Button # | LED Pin # |
@@ -47,9 +56,9 @@ Encoders | DATA 1 | DATA 2 |
 
 ## Images
 
-![Img Front](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-1.png)
+![Img Front](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-1-rev2.png)
 
-![Img Back](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-2.png)
+![Img Back](https://github.com/Stormpegy/LeonardoSDVX-Shield/blob/master/imgs/img-2-rev2.png)
 
 ## Parts and construction
 
@@ -96,13 +105,12 @@ Different design - 1
 
 - [x] Add more info on the code change / LED pinout change
 
-- [ ] Possibly modify the shield footprint to remove the white outline? unsure how that will go with manufacturing
+- [x] Modify the shield footprint to remove the white outline? unsure how that will go with manufacturing
+
+- [x] Fix the big mistake on rev 1 :)
 
 ## Contact and Modifications
 Created by https://github.com/Stormpegy
 Feel free to contact me in the cons&stuff discord server under the same username for any assistance.
 
 Feel free to modify and redistribute this design in any way you please just give credit for original design and keep appropriate links and licenses for the used libraries.
-
-
-

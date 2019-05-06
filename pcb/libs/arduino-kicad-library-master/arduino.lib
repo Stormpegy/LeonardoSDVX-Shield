@@ -242,6 +242,7 @@ F2 "" 1800 3750 60 H I C CNN
 F3 "" 1800 3750 60 H I C CNN
 $FPLIST
  Arduino_Leonardo_Shield
+ Arduino_Leonardo_Shield_Noborder
 $ENDFPLIST
 DRAW
 T 900 -500 50 60 0 0 0 Analogue Normal 0 C C
