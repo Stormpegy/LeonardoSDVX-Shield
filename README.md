@@ -1,6 +1,6 @@
 # LeonardoSDVX-Shield
 
-Open source IO shield for homebuilt SDVX / K-Shoot Mania style controllers
+Open source IO shield for homebuilt SDVX / K-Shoot Mania style controllers.
 
 
 Uses the kicad libraries by sparkfun 
@@ -17,8 +17,8 @@ Cons&Stuff SDVX guide
 Original code can be found here
 [Cons & Stuff leovx Code](https://github.com/consandstuff/sdvx-diy/tree/master/code%20Leonardo/Arduino%20Leonardo)
 
-LED Pinout code changes between original leovx/leovxhq and what is required for this board
-To update this code look for line 18 on leovx or line 27 on leovxhq and replace with the new example
+LED Pinout code changes between original leovx/leovxhq and what is required for this board.  
+To update this code look for line 18 on leovx or line 27 on leovxhq and replace with the new example.
 
 Original
 `uint8_t ledPins[] = {6,7,8,9,10,11,12};`
@@ -35,13 +35,13 @@ REV 2 released
 
 - System pin rotated to have GND on the same side as all other connections (I have also forgotten why the system pin exists but I'm leaving it there /shrug)
 
-- Removed white border on leonardo shield footprint, library updated and included
+- Removed white border on leonardo shield footprint, library updated and included.
 
 ## Pinout
 
 |Button	| Pin # | Button # | LED Pin # |
 |-------|-------|----------|-----------|
-|Start	| 13 | Button 1 |  12 |
+|Start	| 13 | Button 1 | 12 |
 |BT-A	| A0 | Button 2 | 11 |
 |FX-L	| A1 | Button 3 | 10 |
 |BT-B	| A2 | Button 4 | 9 |
@@ -82,7 +82,7 @@ I highly recommend leaving the settings on JLCPCB as default unless you know wha
 
 Layers - 2
 
-Dimensions - 53 x 69 mm, don't change, it automatically enters these
+Dimensions - 53 x 69 mm, don't change, it automatically enters these.
 
 PCB thickness - 1.6mm
 
@@ -112,5 +112,8 @@ Different design - 1
 ## Contact and Modifications
 Created by https://github.com/Stormpegy
 Feel free to contact me in the cons&stuff discord server under the same username for any assistance.
+
+Cons&stuff discord can be found here.  
+https://consandstuff.github.io/
 
 Feel free to modify and redistribute this design in any way you please just give credit for original design and keep appropriate links and licenses for the used libraries.
